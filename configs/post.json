@@ -1,0 +1,14 @@
+{
+  "version": "original-14b-v1",
+  "mode": "fresh",
+  "base_model": "../models/Qwen2.5-Coder-14B-Instruct",
+  "structural_checkpoint": "../adapters/structural",
+  "grounding_checkpoint": "../adapters/grounding",
+  "semantic_checkpoint": "../adapters/semantic",
+  "device": "cuda:0",
+  "batch_size": 8,
+  "grounding_batch_size": 4,
+  "confidence_batch_size": 8,
+  "cpu_workers": 8,
+  "random_seed": 42
+}

@@ -1,0 +1,10 @@
+SPS-SQL: Shared-Policy Search for Efficient SQL Synthesis
+
+The source distribution contains Alpha-SQL-derived prompt templates and database
+schema formatting. Their original MIT license is preserved at
+src/sps/prompts/ALPHA_SQL_LICENSE. SPS-SQL adds the final task-consistency prompt
+and its search and post-correction implementation.
+
+NVIDIA NeMo DataDesigner, Qwen base models, and official benchmark evaluators are
+external dependencies with their own licenses. Download benchmark datasets and
+base models from their respective providers.

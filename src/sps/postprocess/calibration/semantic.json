@@ -1,0 +1,80 @@
+{
+  "fields": {
+    "group_by_columns": {
+      "recommended": {
+        "threshold": -0.6121480464922797
+      }
+    },
+    "having_required": {
+      "recommended": {
+        "threshold": -1.2236945629119873
+      }
+    },
+    "limit": {
+      "recommended": {
+        "threshold": -0.2816673517227173
+      }
+    },
+    "order_by_columns": {
+      "recommended": {
+        "threshold": -0.03734571264067199
+      }
+    },
+    "order_directions": {
+      "recommended": {
+        "threshold": -0.00024569449306000024
+      }
+    },
+    "order_required": {
+      "recommended": {
+        "threshold": -1.6093124941107817e-05
+      }
+    },
+    "ordered_slots": {
+      "recommended": {
+        "threshold": -0.0020247465381428046
+      }
+    },
+    "output_arity": {
+      "recommended": {
+        "threshold": -0.004712190479040146
+      }
+    },
+    "predicate_columns": {
+      "recommended": {
+        "threshold": -0.007091491482469792
+      }
+    },
+    "predicate_operators": {
+      "recommended": {
+        "threshold": -0.003151599666883461
+      }
+    },
+    "predicate_values": {
+      "recommended": {
+        "threshold": -5.596578353106452e-05
+      }
+    },
+    "row_mode": {
+      "recommended": {
+        "threshold": -5.960461990639487e-07
+      }
+    },
+    "select_distinct": {
+      "recommended": {
+        "threshold": -3.075552376685664e-05
+      }
+    },
+    "set_operation": {
+      "recommended": {
+        "threshold": -0.0811812095843728
+      }
+    },
+    "tables": {
+      "recommended": {
+        "threshold": -0.02340034650992493
+      }
+    }
+  },
+  "score_mode": "field"
+}

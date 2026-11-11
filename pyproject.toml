@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sps-datadesigner"
+version = "0.1.0"
+description = "SPS-SQL: Shared-Policy Search for Efficient SQL Synthesis"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = {text = "Apache-2.0"}
+dependencies = [
+  "data-designer==0.9.5", "sqlglot==30.19.0", "prettytable==3.18.0",
+  "chardet==7.6.0", "pandas==3.0.6", "pydantic==2.14.1",
+  "numpy==2.4.6", "pyarrow==24.0.0", "httpx==0.28.1"
+]
+
+[project.optional-dependencies]
+post = ["torch==2.13.0", "transformers==5.19.0", "peft==0.21.2", "accelerate==1.15.0"]
+eval = ["sqlparse==0.5.3", "func-timeout==4.3.5", "tqdm>=4.67,<5", "nltk>=3.9,<4"]
+
+[project.entry-points."data_designer.plugins"]
+sps-schema-context = "sps.integration.plugins:schema_context_plugin"
+sps-cem = "sps.integration.plugins:cem_plugin"
+sps-population = "sps.integration.plugins:population_plugin"
+sps-candidate-archive = "sps.integration.plugins:candidate_archive_plugin"
+sps-raw-selection = "sps.integration.plugins:raw_selection_plugin"
+sps-answer-priors = "sps.integration.plugins:auxiliary_prediction_plugin"
+sps-post-correction = "sps.integration.plugins:post_correction_plugin"
+
+[tool.setuptools.package-data]
+"sps.prompts" = ["templates/*.txt", "manifest.json", "ALPHA_SQL_LICENSE"]
+"sps.postprocess" = ["calibration/*.json"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

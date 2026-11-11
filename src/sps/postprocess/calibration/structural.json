@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "aggregate_distinct": {
+      "recommended": {
+        "threshold": -0.07538822036106471
+      }
+    },
+    "limit": {
+      "recommended": {
+        "threshold": -0.07538822036106471
+      }
+    },
+    "order_removal": {
+      "recommended": {
+        "threshold": -0.07538822036106471
+      }
+    },
+    "projection_arity": {
+      "recommended": {
+        "threshold": -0.07538822036106471
+      }
+    },
+    "select_distinct": {
+      "recommended": {
+        "threshold": -0.009127869789009532
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "endpoint": "http://127.0.0.1:8000/v1",
+  "model": "Qwen/Qwen2.5-Coder-14B-Instruct",
+  "population_size": 8,
+  "search_rounds": 2,
+  "sql_samples": 3,
+  "elite_fraction": 0.25,
+  "old_weight": 0.25,
+  "exploration_mix": 0.10,
+  "random_seed": 42,
+  "max_tokens": 4096,
+  "parallel": 16,
+  "row_parallel": 16,
+  "request_timeout_seconds": 1800,
+  "max_attempt_multiplier": 3,
+  "invalid_retry_limit": 15,
+  "max_batches": 32
+}

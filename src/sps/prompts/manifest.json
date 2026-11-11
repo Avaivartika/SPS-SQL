@@ -1,0 +1,29 @@
+{
+  "source": "Alpha-SQL static templates with SPS V6 final-task guard",
+  "templates": {
+    "raphrase_question": {
+      "sha256": "4d57f3ef270168cf5a826d7402e3f08fc14fd0f203d6f13ef6ebb63fb05a24ac",
+      "trailing_newlines": 0
+    },
+    "schema_selection": {
+      "sha256": "a5708afe189e21da48e4372d2d817d8b712a65a9caf7e58f2f2a83d7bf06c5b5",
+      "trailing_newlines": 0
+    },
+    "identify_column_values": {
+      "sha256": "50e375db53d5e5d04cf6a20f2511aad41dc940c8d742e73c91597794c7cc1afa",
+      "trailing_newlines": 0
+    },
+    "identify_column_functions": {
+      "sha256": "8f7a8ca9f5785c5c112a76f7450e1b9778f29ed9c7ec52188ad018a4633505d5",
+      "trailing_newlines": 0
+    },
+    "sql_generation": {
+      "sha256": "95da322c5020af8d7d97d4744c8b9d18597499a3666f9521349270338781f849",
+      "trailing_newlines": 0
+    },
+    "sql_revision": {
+      "sha256": "cf3d018d26999ef0c66fe59c36a53f066ea45c86748fde970b0b614eba778abb",
+      "trailing_newlines": 0
+    }
+  }
+}
